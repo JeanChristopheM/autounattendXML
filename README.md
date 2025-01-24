@@ -11,3 +11,8 @@ Things I added back into the [Standard Version](https://github.com/memstechtips/
 - Windows Photos
 - Windows Terminal
 - Notifications
+- Windows Store 
+- Gaming app 
+- Xbox app 
+- Paint 
+- Windows Calculator

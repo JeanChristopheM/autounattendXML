@@ -397,7 +397,6 @@ foreach( $file in $Document.unattend.Extensions.File ) {
   Where-Object -Property 'DisplayName' -In -Value @(
   'Microsoft.Microsoft3DViewer';
   'Microsoft.BingSearch';
-  'Microsoft.WindowsCalculator';
   'Microsoft.WindowsCamera';
   'Clipchamp.Clipchamp';
   'Microsoft.549981C3F5F10';
@@ -412,7 +411,6 @@ foreach( $file in $Document.unattend.Extensions.File ) {
   'Microsoft.MicrosoftOfficeHub';
   'Microsoft.Office.OneNote';
   'Microsoft.OutlookForWindows';
-  'Microsoft.Paint';
   'Microsoft.MSPaint';
   'Microsoft.People';
   'Microsoft.PowerAutomateDesktop';
@@ -428,12 +426,10 @@ foreach( $file in $Document.unattend.Extensions.File ) {
   'Microsoft.BingWeather';
   'Microsoft.ZuneMusic';
   'Microsoft.Xbox.TCUI';
-  'Microsoft.XboxApp';
   'Microsoft.XboxGameOverlay';
   'Microsoft.XboxGamingOverlay';
   'Microsoft.XboxIdentityProvider';
   'Microsoft.XboxSpeechToTextOverlay';
-  'Microsoft.GamingApp';
   'Microsoft.YourPhone';
   'Microsoft.MicrosoftEdge';
   'Microsoft.MicrosoftEdge.Stable';
@@ -447,7 +443,6 @@ foreach( $file in $Document.unattend.Extensions.File ) {
   'Microsoft.MixedReality.Portal';
   'Microsoft.Windows.Ai.Copilot.Provider';
   'Microsoft.WindowsMeetNow';
-  'Microsoft.WindowsStore';
 ) | Remove-AppxProvisionedPackage -AllUsers -Online
 
 Get-WindowsCapability -Online |
